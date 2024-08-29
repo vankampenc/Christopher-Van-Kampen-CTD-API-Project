@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-family: "Playfair Display", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #eb8d46;
+}
+
+h2 {
+    color: #eb8d46;
+}
+
+main {
+    padding: 120px 20px;
+}
+
+a {
+    color: #3f5db7;
+    font-style: italic;
+}
