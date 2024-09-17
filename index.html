@@ -5,7 +5,7 @@
     <title>My Open API Project</title>
 
     <meta name="author" content="Christopher Van Kampen">
-    <meta http-equiv="refresh" content="300">
+    <meta http-equiv="refresh" content="1000">
 
     <!-- link to CSS style sheet -->
     <link href="css/index.css" rel="stylesheet">
@@ -15,11 +15,42 @@
 <body>
 
 <header>
+    <nav>
+
+    </nav>
 </header>
 
 <main>
 
     <h1> Weather  </h1>
+
+<!-- City Selector -->
+    <fieldset>
+        <legend>Select a City</legend>
+      
+        <div>
+          <input type="radio" id="grandRapids" name="city" value="grandRapids" checked />
+          <label for="grandRapids">grandRapids</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="zeeland" name="city" value="zeeland" />
+          <label for="zeeland">zeeland</label>
+        </div>
+      </fieldset>
+      
+<!-- The Weather -->
+    <section id="weather">
+        <div>
+            <div class="divHeader">Current Temp</div>
+            <div class="currentTemp"></div>
+        </div>
+        <div>
+             <div class="divHeader">14 Day Precipitation Probability</div>
+            <div class="precipProb"></div>
+        </div>
+    </section>
+
 
 </main>
  
